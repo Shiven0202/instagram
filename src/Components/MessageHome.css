@@ -1,0 +1,161 @@
+.ChatPage {
+    display: flex
+;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 11px;
+}
+h1.MessageName {
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.MessangerPage {
+    display: flex
+;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 269px;
+    margin-left: 18px;
+}
+input.form-control.me-2 {
+    width: 380px;
+    margin-left: 97px;
+    border: 1px solid gray;
+    font-size: medium;
+}
+
+.SearchButton {
+    margin-left: 51px;
+    display: flex
+;
+    flex-direction: row;
+    align-items: baseline;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.SearchNameIcon.css-oclf15-MuiSvgIcon-root {
+    margin-right: -95px;
+    margin-top: 1px;
+    font-size: 37px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: gray;
+}
+.NoteHighlight {
+    margin-top: 20px;
+    display: flex
+;
+    flex-direction: row;
+    margin-left: 41px;
+}
+h6.YourNotePage {
+    font-size: 8px;
+    background: gray;
+    border-radius: 7px;
+}
+h6.YourNotePage {
+    font-size: 12px;
+    background: white;
+    border-radius: 7px;
+    filter: drop-shadow(1px 2px 3px gray);
+    padding: 0px;
+    font-weight: 100;
+    margin-right: 13px;
+    margin-bottom: -6px;
+    margin-inline: 8px;
+    margin-block: -2px;
+    padding-block: 4px;
+    padding-inline: 0px;
+}
+input.form-control.me-3 {
+    width: 72px;
+    height: 22px;
+    margin-left: 12px;
+    font-size: 7px;
+    text-align: center;
+}
+.ImgNote {
+    margin-right: -27px;
+}
+.Vibe {
+    margin-top: -10px;
+    margin-bottom: -2px;
+}
+p.Note {
+    font-size: 9px;
+    font-weight: 700;
+    color: gray;
+}
+.Message-Requeat {
+    display: flex
+;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+}
+.MessangerChatBox {
+    max-height: 500px; 
+    overflow-y: auto; 
+  }
+  
+  .ScrollBar {
+    max-height: 288px;
+    overflow-y: auto; 
+    padding-right: 10px; 
+  }
+  
+  .ScrollBar::-webkit-scrollbar {
+    width: 8px; 
+    opacity: 0; 
+    display: none;
+  }
+  
+  .ScrollBar:hover::-webkit-scrollbar {
+    opacity: 1; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .ScrollBar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+  }
+  
+  .ScrollBar::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  
+
+  .PersonChatPAge {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .SingerChatImage {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; 
+  }
+  
+  .UserNameChat {
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .ChatCamera {
+    margin-left: 10px;
+    cursor: pointer;
+    color: dodgerblue;
+}
+  
+  .PersonChatPAge:last-child {
+    border-bottom: none; 
+  }
+  
+  img.HighLightImage {
+    width: 50%;
+    height: 50px;
+    border-radius: 100%;
+}

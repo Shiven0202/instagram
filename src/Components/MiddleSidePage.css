@@ -1,0 +1,204 @@
+.middleHomeSide{
+    width: 100%;
+
+    padding: 30px 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.storyBlock {
+    width: 437px;
+    height: 150px;
+    display: flex;
+    height: fit-content;
+    gap: 29px;
+    align-items: center;
+    overflow-x: auto;
+    overflow: hidden;
+}
+.storyBlock ::-webkit-scrollbar{
+    display: none;
+
+}
+.storyParticuler {
+    width: 66px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
+
+.storyParticuler:hover {
+    transform: scale(1.1); 
+    border-color: #e1306c; 
+  }
+
+.statusImg {
+    width: 53px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid purple;
+}
+
+.profileName{
+  font-size: 14px;
+}
+
+/*---------------------*/
+.postSection {
+    width: 100%;
+    margin-block: 36px;
+    margin-bottom: -23px;
+}
+
+.post{
+    width: 100%;
+}
+.postinfo {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+   
+}
+.postInfoImg {
+    width: 42px;
+    border-radius: 100%;
+    border: 2px solid purple;
+    height: 36px;
+}
+.postInfouserName {
+    margin-top: 6px;
+    margin-inline: 10px;
+    font-weight: 600;
+}
+.postTime {
+    font-size: 13px;
+    margin-top: 9px;
+    color: gray;
+    font-weight: 400;
+}
+.post {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.moreOpetion {
+    color: black;
+    font-size: 19px;
+    font-weight: 400 !important;
+}
+img.User-1 {
+    width: 100%;
+    height: 353px;
+    margin-top: 6px;
+}
+.Like-Box {
+    display: flex
+;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Bookmark {
+    margin-left: 301px;
+}
+img.CommentProfile {
+    width: 21px;
+    border-radius: 100%;
+    height: 19px;
+    margin-right: -85px;
+    margin-inline: 4px;
+    margin-left: -14px;
+}
+.commentPhoto {
+    display: flex
+;
+    flex-direction: row;
+    margin-left: 17px;
+    font-size: 13px;
+    margin-top: -12px;
+}
+
+.likeSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    align-items: unset;
+    font-size: 12px;
+    font-weight: 600;
+}
+.likeCount {
+    font-weight: 600;
+    margin-left: -1px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.SendSection{
+        display: flex  ;
+        flex-direction: row;
+        margin-top: 6px;
+        align-items: unset;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: -7px;
+}
+.commentSection {
+    margin-top: 4px;
+    margin-left: -7px;
+}
+.DicriptionName {
+    display: flex
+;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 11px;
+    margin-top: -13px;
+}
+h2.ikkamusic {
+    font-size: 15px;
+    font-weight: 600;
+}
+p.discriptionText {
+    font-size: 11px;
+    font-weight: 500;
+}
+p.user {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navLinkpart .navLink a {
+    color: black !important;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+
+.MiddleScrollBar {
+    overflow-y: scroll;         /* Enable vertical scrolling */
+    height: 100vh;              /* Full viewport height */
+    scrollbar-width: none;      /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;   /* Hide scrollbar in IE and Edge */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for touch devices */
+}
+
+/* Hide scrollbar in WebKit-based browsers (Chrome, Safari, etc.) */
+.MiddleScrollBar::-webkit-scrollbar {
+    display: none;
+}
+
+
+.MiddleScrollBar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.MiddleScrollBar::-webkit-scrollbar-track {
+    background: transparent;
+}

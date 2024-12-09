@@ -1,0 +1,51 @@
+img.imageRightSideProfile {
+    width: 13%;
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-left: 27px;
+}
+.imgaeDivRightSide {
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    gap: 181px;
+}
+.imgaeDivRightSide {
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    margin-top: 5px;
+}
+.SecondUSer {
+    margin-top: 38px;
+    font-weight: bold;
+}
+.SwitchButton {
+    margin-top: 34px;
+    
+}
+a.Switch {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    background: dodgerblue;
+    color: white;
+    box-shadow: -1px 1px 3px cornflowerblue;
+    border-radius: 10px;
+}
+.Suggestions {
+    display: flex;
+    flex-direction: row;
+    gap: 71px;
+    margin-top: 29px;
+    font-weight: bold;
+    margin-left: 28px;
+}
+.SwitchButton {
+    margin-top: 34px;
+    position: absolute;
+    margin-left: 255px;
+}

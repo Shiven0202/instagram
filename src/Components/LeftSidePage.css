@@ -1,0 +1,38 @@
+.logoPart{
+    width: 150px;
+    height: 40px;
+   margin-left: 30px;
+}
+.logoImg{
+    width: 100%; 
+}
+.navLinkText{
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+
+}
+.navLink{
+    display: flex;
+  margin-top: 10px;
+    margin-block: 46px;
+    height: 45px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover{background-color: #ededed;}
+    margin-bottom: -40px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none !important;
+}
+.navName{
+    font-weight: 700;
+  
+}
+.profileImg {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+

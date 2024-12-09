@@ -1,0 +1,220 @@
+.ProfileHome {
+    margin: 24px;
+    display: flex
+;
+    flex-direction: row;
+    margin-left: 42px;
+    margin-top: -20px;
+}
+.PlusIcon {
+    margin-top: -15px;
+    margin-left: 19px;
+    color: dodgerblue;
+    background: white;
+}
+.ProfileHomeImage {
+    margin-right: 410px;
+    margin-top: 10px;
+}
+img.PfImage {
+    width: 48px;
+    border-radius: 50%;
+}
+h2.BioName {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.followerPostPage {
+    display: flex
+;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: -197px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+h4.Post-count {
+    font-size: 17px;
+}
+.Follower {
+    margin-left: -85px;
+}
+p.Bio-Discripstion-Name {
+    font-size: 10px;
+    margin-right: -22px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.ProfileButtonsPage {
+    display: flex
+;
+    flex-direction: row;
+    font-weight: 500;
+    gap: 90px;
+    align-items: baseline;
+    margin-left: 29px;
+    letter-spacing: 1px;
+}
+a.ProfileButton {
+    color: black;
+    text-decoration: none;
+  background: darkgray;
+    border-radius: 20px;
+    padding: 6px;
+    margin-left: 21px;
+}
+.useredit {
+    /* border: 2px solid; */
+    border-radius: 7px;
+    background: darkgray;
+    padding: 3px;
+}
+a.user {
+    color: black;
+    text-decoration: none;
+}
+img.Image {
+    width: 21%;
+    height: 136px;
+    margin-left: 3px;
+    margin-top: 26px;
+    margin-bottom: -23px;
+ 
+}
+
+
+video.Video{
+    width: 24%;
+    height: 136px;
+    margin-left: 3px;
+    margin-top: 26px;
+}
+.Reel-Post-Collebration-Icon {
+    display: flex
+;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 51px;
+    margin-left: 63px;
+    margin-top: 37px;
+    margin-bottom: -16px;
+}
+
+img.HighLightImage {
+    width: 55px;
+    border-radius: 50%;
+    overflow-x: scroll;
+}
+.StoryHighlight {
+    display: flex
+;
+    flex-direction: row;
+}
+
+.Highlight {
+    margin: 20px 0; 
+  }
+  
+
+  .StoryHighlight {
+    display: flex
+;
+    overflow-x: auto;
+    padding: 10px 0;
+    gap: 12px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin-left: 44px;
+}
+  
+  
+  .HighLightImage {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+    border: 3px solid transparent; 
+    scroll-snap-align: center; 
+  }
+  
+  
+  .HighLightImage:hover {
+    transform: scale(1.1); 
+    border-color: #e1306c; 
+  }
+
+  .HighLightImage:focus, .HighLightImage:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+
+  .StoryHighlight::-webkit-scrollbar {
+    height: 8px; 
+  }
+  
+  .StoryHighlight::-webkit-scrollbar-thumb {
+    background-color: #ddd; 
+    border-radius: 10px; 
+  }
+  
+  .StoryHighlight::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  
+  .StoryHighlight::-webkit-scrollbar-thumb:hover {
+    background-color: #ccc; 
+  }
+  
+  .StoryHighlight::-webkit-scrollbar-track:hover {
+    background-color: #e0e0e0; 
+  }
+  
+
+  .PostsHomePage {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ImagesPage {
+    max-height: 221px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.ImagesPage::-webkit-scrollbar {
+    height: 8px;
+    display: none;
+}
+
+.ImagesPage::-webkit-scrollbar-thumb {
+    background-color: #ddd; 
+    border-radius: 10px; 
+}
+
+.ImagesPage::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+
+.ImagesPage::-webkit-scrollbar-thumb:hover {
+    background-color: #ccc; 
+}
+
+.ImagesPage::-webkit-scrollbar-track:hover {
+    background-color: #e0e0e0;
+}
+
+
+.Image {
+    width: 120px; 
+    height: 120px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    scroll-snap-align: center;
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+
